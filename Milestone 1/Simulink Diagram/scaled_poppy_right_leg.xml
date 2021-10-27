@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/27/21||16:25:53" using="Simscape Multibody Link Version 7.0" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="scaled_poppy_right_leg" uid="scaled_poppy_right_leg" version="2805">
+<AssemblyFile name="scaled_poppy_right_leg.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="fixed_base-1" uid="fixed_base-1" grounded="true" entityUid="fixed_base*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="rds3115-3d_modified-2" uid="rds3115-3d_modified-2" entityUid="rds3115-3d_modified" rigid="true">
+<Transform>
+<Rotation>-0.71600783780551869 -0.0029625017993687441 0.69808595443838783 -0.0021211838160803296 0.9999956117819162 0.0020680899713653349 -0.6980890178052398 -3.1326819036084374e-15 -0.71601097981784856</Rotation>
+<Translation>-0.12307800812861759 -0.025795931401520138 -0.15607131106250094</Translation>
+</Transform>
+<Instance name="rds3115-3d.stp-1" uid="rds3115-3d.stp-1" grounded="true" entityUid="rds3115-3d.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GE_57.stp-1" uid="GE_57.stp-1" grounded="true" entityUid="GE_57.stp*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1.0000000000000002 -1 0 0</Rotation>
+<Translation>0.010000000000000009 0.010899999999999998 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DG_130.stp-1" uid="DG_130.stp-1" grounded="true" entityUid="DG_130.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-DG.stp-1" uid="DUOPAN-DG.stp-1" grounded="true" entityUid="DUOPAN-DG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1.0000000000000002 0 1 0</Rotation>
+<Translation>0.049102646519770005 -0.013424000000000002 0.019899998126899993</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-SG.stp-1" uid="DUOPAN-SG.stp-1" grounded="true" entityUid="DUOPAN-SG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1.0000000000000002 0 1 0</Rotation>
+<Translation>0.049102646519770005 -0.009624000000000011 0.01989999812690002</Translation>
+</Transform>
+</Instance>
+<Instance name="ZK_142.stp-1" uid="ZK_142.stp-1" grounded="true" entityUid="ZK_142.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SG_178.stp-1" uid="SG_178.stp-1" grounded="true" entityUid="SG_178.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part43-1" uid="Part43-1" entityUid="Part43*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 0 0 -2.2612215048574645e-16 -1</Rotation>
+<Translation>0 -0.018200000000000018 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="hip_z_to_hip_y-connecto_modified-1" uid="hip_z_to_hip_y-connecto_modified-1" entityUid="hip_z_to_hip_y-connecto_modified*:*Default">
+<Transform>
+<Rotation>-0.0029625017993677727 -0.9999956117819162 -1.3249852828133162e-16 0.9999956117819162 -0.0029625017993677727 -2.6577414986011077e-16 2.6538045645673318e-16 -1.3328530324607977e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="rds3115-3d_modified-1" uid="rds3115-3d_modified-1" entityUid="rds3115-3d_modified" rigid="true">
+<Transform>
+<Rotation>0 -0.0029625017993684874 0.9999956117819162 -3.2102552682179087e-15 0.99999561178191632 0.0029625017993685013 -0.99999999999999989 -3.2103306939968049e-15 0</Rotation>
+<Translation>0 0 -0.026000000000000002</Translation>
+</Transform>
+<Instance name="rds3115-3d.stp-1" uid="rds3115-3d.stp-1" grounded="true" entityUid="rds3115-3d.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GE_57.stp-1" uid="GE_57.stp-1" grounded="true" entityUid="GE_57.stp*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>0.0099999999999999915 0.010900000000000005 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DG_130.stp-1" uid="DG_130.stp-1" grounded="true" entityUid="DG_130.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-DG.stp-1" uid="DUOPAN-DG.stp-1" grounded="true" entityUid="DUOPAN-DG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.049102646519769977 -0.013424000000000005 0.019899998126900003</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-SG.stp-1" uid="DUOPAN-SG.stp-1" grounded="true" entityUid="DUOPAN-SG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.049102646519769991 -0.0096240000000000041 0.0198999981269</Translation>
+</Transform>
+</Instance>
+<Instance name="ZK_142.stp-1" uid="ZK_142.stp-1" grounded="true" entityUid="ZK_142.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SG_178.stp-1" uid="SG_178.stp-1" grounded="true" entityUid="SG_178.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part43-1" uid="Part43-1" entityUid="Part43*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 -2.0729945537922847e-16 0 -2.0729945537922847e-16 -1</Rotation>
+<Translation>0 -0.018200000000000015 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="thigh-2" uid="thigh-2" entityUid="thigh*:*right_MX28">
+<Transform>
+<Rotation>0.69808595443839028 0.71600783780551625 0.0029625017993687233 0.0020680899713651658 0.0021211838160803877 -0.99999561178191632 -0.71601097981784623 0.69808901780524235 3.3307881236587647e-15</Rotation>
+<Translation>-0.13025491707006606 -0.020135968787219242 -0.16305220124055406</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="0.25"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="0.25"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="rds3115-3d_modified-3" uid="rds3115-3d_modified-3" entityUid="rds3115-3d_modified" rigid="true">
+<Transform>
+<Rotation>-0.63778020941059554 -0.0029625017993684874 0.77021271611631137 -0.0018894333092281911 0.99999561178191609 0.002281766570278513 -0.77021609599251228 -2.9305127481133846e-15 -0.63778300814152522</Rotation>
+<Translation>-0.23993444461541766 -0.026762514189718339 -0.29552936975126504</Translation>
+</Transform>
+<Instance name="rds3115-3d.stp-1" uid="rds3115-3d.stp-1" grounded="true" entityUid="rds3115-3d.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GE_57.stp-1" uid="GE_57.stp-1" grounded="true" entityUid="GE_57.stp*:*Default">
+<Transform>
+<Rotation>2.2204460492503136e-16 1 0 0 0 -1 -1 2.2204460492503126e-16 0</Rotation>
+<Translation>0.0099999999999999534 0.010899999999999995 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DG_130.stp-1" uid="DG_130.stp-1" grounded="true" entityUid="DG_130.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-DG.stp-1" uid="DUOPAN-DG.stp-1" grounded="true" entityUid="DUOPAN-DG.stp*:*Default">
+<Transform>
+<Rotation>1 2.2204460492503121e-16 0 0 0 -1 -2.2204460492503131e-16 1 0</Rotation>
+<Translation>0.049102646519769921 -0.013424000000000005 0.019899998126899965</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-SG.stp-1" uid="DUOPAN-SG.stp-1" grounded="true" entityUid="DUOPAN-SG.stp*:*Default">
+<Transform>
+<Rotation>1 2.2204460492503121e-16 0 0 0 -1 -2.2204460492503131e-16 1 0</Rotation>
+<Translation>0.049102646519770032 -0.0096240000000000006 0.019899998126899993</Translation>
+</Transform>
+</Instance>
+<Instance name="ZK_142.stp-1" uid="ZK_142.stp-1" grounded="true" entityUid="ZK_142.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SG_178.stp-1" uid="SG_178.stp-1" grounded="true" entityUid="SG_178.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part43-1" uid="Part43-1" entityUid="Part43*:*Default">
+<Transform>
+<Rotation>-1 0 -2.2204460492503128e-16 0 0.99999999999999989 -2.2966532297746723e-16 2.2204460492503131e-16 -2.2966532297746723e-16 -0.99999999999999989</Rotation>
+<Translation>0 -0.018200000000000001 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="shin-1" uid="shin-1" entityUid="shin*:*MX28 - MX28">
+<Transform>
+<Rotation>0.77021271611633069 0.63778020941057245 0.0029625017993687164 0.0022817665702785533 0.0018894333092285055 -0.9999956117819162 -0.63778300814150235 0.77021609599253138 3.2646048011203945e-15</Rotation>
+<Translation>-0.24504089775518814 -0.025356045368376122 -0.30169109851920961</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="0.25"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="0.25"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="rds3115-3d_modified-4" uid="rds3115-3d_modified-4" entityUid="rds3115-3d_modified" rigid="true">
+<Transform>
+<Rotation>-2.2204460492503136e-16 -2.5201879772231207e-16 -1 1 1.4329590126277901e-16 -2.7755575615628899e-16 1.4329590126277916e-16 -1 2.5201879772231187e-16</Rotation>
+<Translation>0 -0.0099999999999995925 0.026500000000000003</Translation>
+</Transform>
+<Instance name="rds3115-3d.stp-1" uid="rds3115-3d.stp-1" grounded="true" entityUid="rds3115-3d.stp" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GE_57.stp-1" uid="GE_57.stp-1" grounded="true" entityUid="GE_57.stp*:*Default">
+<Transform>
+<Rotation>-2.2204460492503136e-16 1 1.4329590126277916e-16 -2.5201879772231207e-16 1.4329590126277901e-16 -1 -1 -2.7755575615628899e-16 2.5201879772231187e-16</Rotation>
+<Translation>0.01 0.010899999999999998 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DG_130.stp-1" uid="DG_130.stp-1" grounded="true" entityUid="DG_130.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-DG.stp-1" uid="DUOPAN-DG.stp-1" grounded="true" entityUid="DUOPAN-DG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.049102646519770005 -0.013423999999999998 0.019899998126899996</Translation>
+</Transform>
+</Instance>
+<Instance name="DUOPAN-SG.stp-1" uid="DUOPAN-SG.stp-1" grounded="true" entityUid="DUOPAN-SG.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.049102646519770005 -0.0096240000000000006 0.019899998126899996</Translation>
+</Transform>
+</Instance>
+<Instance name="ZK_142.stp-1" uid="ZK_142.stp-1" grounded="true" entityUid="ZK_142.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SG_178.stp-1" uid="SG_178.stp-1" grounded="true" entityUid="SG_178.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part43-1" uid="Part43-1" entityUid="Part43*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 -2.2204460492503121e-16 -1</Rotation>
+<Translation>0 -0.018200000000000008 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="simple_foot-1" uid="simple_foot-1" entityUid="simple_foot*:*right">
+<Transform>
+<Rotation>0.0029625017993685707 0.64152090183521859 -0.76709983450110109 -0.99999561178191632 0.0019005151658968592 -0.0022725446124241427 3.2103306939967864e-15 0.76710320071723859 0.64152371698119448</Rotation>
+<Translation>-0.27330150376539641 -0.02343975905545044 -0.32629515280610971</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0 0</Position>
+<Axis>1.0000000000000002 1.3877787807814499e-16 -3.4694469519536118e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-1</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DG_130.stp-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000011 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0060000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-1</Uid>
+<Uid>Part43-1</Uid>
+</InstancePath>
+<Position>0.019999999999999997 0.036199999999999996 0.009999999999999995</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rds3115-3d_modified-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 -0.018800000000000011 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0 0.18200000000000002 -0.061873118798729365</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.018800000000000001 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0.17999999999999999 -0.033546892999048346</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DUOPAN-SG.stp-1</Uid>
+</InstancePath>
+<Position>-0.028104375652969998 -0.019900000000000029 -0.03612400000000001</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0.17999999999999999 -0.025698800617198255</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+</InstancePath>
+<Position>0.0099999999999999534 -0.018800000000000004 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>simple_foot-1</Uid>
+</InstancePath>
+<Position>-0.034482899066584208 0.034999999999999976 -0.0058999999999999886</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DUOPAN-SG.stp-1</Uid>
+</InstancePath>
+<Position>-0.028104375652970026 -0.019899999999999973 -0.036124000000000003</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simple_foot-1</Uid>
+</InstancePath>
+<Position>-0.023078409473936985 0.022999999999999965 -0.0045722733090549916</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0 0 0.0048800000000000024</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>simple_foot-1</Uid>
+</InstancePath>
+<Position>0.0020000000000000018 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.1102230246251565e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+</InstancePath>
+<Position>0.0079999999999999516 0 0</Position>
+<Axis>1 0 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-1</Uid>
+</InstancePath>
+<Position>0 -0.00065000000000000019 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0 0 -0.019100000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>-3.4000580129145419e-16 -0.012500000000000001 4.0679265511656126e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-4</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DUOPAN-SG.stp-1</Uid>
+</InstancePath>
+<Position>-0.039102646519769996 -0.019899998126900003 -0.036124000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>0.050000000000000017 0.0064999999999999997 -0.03500000000000001</Position>
+<Axis>-1.3877787807814459e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-4</Uid>
+<Uid>Part43-1</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.036199999999999996 0.010000000000000005</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>0 0 -0.013999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>-3.4000580129145419e-16 -0.012500000000000001 4.0679265511656126e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip_z_to_hip_y-connecto_modified-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rds3115-3d_modified-4</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DUOPAN-SG.stp-1</Uid>
+</InstancePath>
+<Position>-0.028104375652970002 -0.019900000000000001 -0.036123999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>0 0.0064999999999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scaled_poppy_right_leg</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999989 0.0064999999999999997 0.03500000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scaled_poppy_right_leg</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>fixed_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>scaled_poppy_right_leg</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>-0.0074999999999987021 0.025499999999999967 0.013847833998186183</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DG_130.stp-1</Uid>
+</InstancePath>
+<Position>-0.017500000000000016 -0.010200000000000001 -0.0075000000000000067</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0.0075000000000013944 0.025499999999999912 0.013847833998186183</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DG_130.stp-1</Uid>
+</InstancePath>
+<Position>-0.017500000000000071 -0.010200000000000001 0.0074999999999999512</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>-0.0069999999999986462 0.018019999999999869 -0.016845435232583784</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.010020000000000029 0.02 -0.0069999999999999785</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>0.007000000000001283 0.018019999999999814 -0.016845435232583784</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.010020000000000029 0.019999999999999997 0.0069999999999999785</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shin-1</Uid>
+</InstancePath>
+<Position>1.3322676295501878e-15 0.025019999999999931 -0.016845435232583784</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-3</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.017020000000000035 0.019999999999999997 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0 0.027020000000000072 -0.027318800617198678</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.01701999999999998 0.02 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0.0069999999999999507 0.020020000000000093 -0.027318800617198678</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.010020000000000001 0.019999999999999997 0.0070000000000000062</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>-0.0070000000000000617 0.020020000000000066 -0.027318800617198675</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>SG_178.stp-1</Uid>
+</InstancePath>
+<Position>-0.010020000000000001 0.019999999999999997 -0.0070000000000000062</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>-0.0075000000000000483 0.027500000000000052 0.034681199382801772</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DG_130.stp-1</Uid>
+</InstancePath>
+<Position>-0.017499999999999988 -0.010200000000000004 -0.0074999999999999928</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>thigh-2</Uid>
+</InstancePath>
+<Position>0.0074999999999999512 0.027500000000000024 0.034681199382801758</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rds3115-3d_modified-2</Uid>
+<Uid>rds3115-3d.stp-1</Uid>
+<Uid>DG_130.stp-1</Uid>
+</InstancePath>
+<Position>-0.017499999999999988 -0.010200000000000004 0.0075000000000000205</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+<Frames>
+<Frame name="Sim First Joint Frame" uid="Sim First Joint Frame">
+<Transform>
+<Rotation>0.9999956117819162 0.0029625017993677727 1.3249852828133162e-16 0.0029625017993677727 -0.9999956117819162 2.6577414986011077e-16 1.3328530324607977e-16 -2.6538045645673313e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+<Frame name="Sim Second Joint Frame" uid="Sim Second Joint Frame">
+<Transform>
+<Rotation>0.9999956117819162 0 0.0029625017993685013 0.0029625017993685013 3.3307121692863957e-15 -0.9999956117819162 0 1 3.3307881236587643e-15</Rotation>
+<Translation>0 0 -0.035999999999999928</Translation>
+</Transform>
+</Frame>
+<Frame name="Sim Third Joint Frame" uid="Sim Third Joint Frame">
+<Transform>
+<Rotation>0.71600783780551613 -0.69808595443839028 0.0029625017993687064 0.0021211838160803912 -0.002068089971365233 -0.9999956117819162 0.69808901780524224 0.71601097981784612 3.2547749218014859e-15</Rotation>
+<Translation>-0.13024045650811145 -0.025017146750256458 -0.16305220124055408</Translation>
+</Transform>
+</Frame>
+<Frame name="Sim Fourth joint Frame" uid="Sim Fourth joint Frame">
+<Transform>
+<Rotation>0.63778020941057245 -0.77021271611633035 0.0029625017993686405 0.0018894333092283897 -0.0022817665702785398 -0.9999956117819162 0.77021609599253149 0.63778300814150235 3.1736765992995678e-15</Rotation>
+<Translation>-0.2450408942020145 -0.025357244745917207 -0.30169109851920956</Translation>
+</Transform>
+</Frame>
+</Frames>
+</RootAssembly>
+<Assemblies>
+<Assembly name="rds3115-3d_modified" uid="rds3115-3d_modified" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rds3115-3d_modified.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+</Frames>
+</Assembly>
+<Assembly name="rds3115-3d.stp" uid="rds3115-3d.stp" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rds3115-3d.stp.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+</Frames>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="DG_130.stp" uid="DG_130.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DG_130.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027250467560720184</Mass>
+<CenterOfMass>0.0005836731970207111 -0.016431097742024312 -3.0014254625498205e-08</CenterOfMass>
+<Inertia>1.7222812098823579e-07 6.1266915899834142e-07 5.0686770630588258e-07 -1.1681981087927597e-13 -1.0749835124229869e-12 1.2489546862890487e-08</Inertia>
+</MassProperties>
+<GeometryFile name="DG_130.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="DUOPAN-DG.stp" uid="DUOPAN-DG.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DUOPAN-DG.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00056991023645195813</Mass>
+<CenterOfMass>-0.039102646519770003 -0.019899998126900003 0.010371680301557711</CenterOfMass>
+<Inertia>1.514791188499696e-08 1.5147911884996953e-08 2.9761819802832155e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DUOPAN-DG.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="DUOPAN-SG.stp" uid="DUOPAN-SG.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DUOPAN-SG.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00064440976828964618</Mass>
+<CenterOfMass>-0.039102646519770003 -0.019899998126900003 -0.034792607950390499</CenterOfMass>
+<Inertia>1.6064598747540526e-08 1.6064598747540516e-08 3.0703023001819491e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DUOPAN-SG.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="GE_57.stp" uid="GE_57.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GE_57.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00013920718211914035</Mass>
+<CenterOfMass>3.8718966625674836e-07 2.331879460154867e-07 -0.010288750466491605</CenterOfMass>
+<Inertia>9.9942399372284674e-10 9.9940475335072807e-10 6.8005376643577913e-10 -1.030467596965056e-13 2.404345340043615e-13 -2.0703381900789517e-14</Inertia>
+</MassProperties>
+<GeometryFile name="GE_57.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Part43" uid="Part43*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part43.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028786928322852297</Mass>
+<CenterOfMass>0 0.018100000000000008 0</CenterOfMass>
+<Inertia>4.0933973988961055e-06 4.7454409250135098e-06 6.9393005846838328e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part43_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="SG_178.stp" uid="SG_178.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SG_178.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0086971059265003627</Mass>
+<CenterOfMass>8.5223386116497913e-06 0.013882394173103149 -6.1562218304079219e-08</CenterOfMass>
+<Inertia>3.7754049984060914e-07 1.4004250279018481e-06 1.215688988351655e-06 2.8689619661694361e-12 -5.5725373315683723e-12 -1.8391080578791605e-09</Inertia>
+</MassProperties>
+<GeometryFile name="SG_178.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="ZK_142.stp" uid="ZK_142.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ZK_142.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014070790664239814</Mass>
+<CenterOfMass>0 -0.0013169423482029697 0</CenterOfMass>
+<Inertia>8.3337097307836684e-07 2.3120652314561574e-06 2.220164138033374e-06 0 -3.6810628040231537e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="ZK_142.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="fixed_base" uid="fixed_base*:*Default" version="349">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fixed_base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.042180588948255972</Mass>
+<CenterOfMass>-6.7437537912654601e-08 0.0032500000000000012 3.2272033848251064e-05</CenterOfMass>
+<Inertia>1.8006205100893165e-05 5.4408050144788188e-05 3.6698866691072331e-05 0 -5.7039792035876297e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="fixed_base_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="hip_z_to_hip_y-connecto_modified" uid="hip_z_to_hip_y-connecto_modified*:*Default" version="428">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hip_z_to_hip_y-connecto_modified.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056618186048755818</Mass>
+<CenterOfMass>-3.5077127821676742e-05 2.3188160226124642e-07 -0.0058467894134523373</CenterOfMass>
+<Inertia>4.9010162475693801e-07 1.8744985802562151e-06 1.9672137008578455e-06 1.330360409027086e-11 -3.6254155163704688e-09 -2.7109759733704186e-11</Inertia>
+</MassProperties>
+<GeometryFile name="hip_z_to_hip_y-connecto_modified_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="shin" uid="shin*:*MX28 - MX28" version="7807">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="shin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.04630990909921022</Mass>
+<CenterOfMass>-0.0043024527927217737 0.10299285622083981 -0.0007449417363040757</CenterOfMass>
+<Inertia>0.00018192746931505844 3.6633681548453016e-05 0.00017432954992021118 -2.7847853029396033e-06 1.4217764980335521e-07 7.6858327104091631e-06</Inertia>
+</MassProperties>
+<GeometryFile name="shin_MX28 - MX28_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="simple_foot" uid="simple_foot*:*right" version="4667">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="simple_foot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.060251670466708186</Mass>
+<CenterOfMass>-0.00046452996040453469 0.012319193431889905 0.020259424116785534</CenterOfMass>
+<Inertia>0.00010423594488903466 0.00012248207532527066 3.3729281045421238e-05 5.0638809406656051e-06 3.7497928834270069e-06 -2.7572174816930396e-07</Inertia>
+</MassProperties>
+<GeometryFile name="simple_foot_right_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="thigh" uid="thigh*:*right_MX28" version="3225">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="thigh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.032485774203257961</Mass>
+<CenterOfMass>0.0090064459342497141 0.10375709453942487 -0.019382610840762381</CenterOfMass>
+<Inertia>0.00015326006171878143 2.4713599336381378e-05 0.00014092417824001241 1.6771753623307157e-05 -9.5319307007037346e-06 2.2743576410464506e-06</Inertia>
+</MassProperties>
+<GeometryFile name="thigh_right_MX28_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.73999999999999999" g="0.73999999999999999" b="0.73999999999999999" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0.34999999999999998" g="0.34999999999999998" b="0.34999999999999998" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
