@@ -1,0 +1,9 @@
+function [T] = transformation_func(theta,d,a,alpha)
+syms q1 q2 q3 q4
+Dhparameters = xlsread(('Milestone 02 DH Excel Sheet.xlsx');
+Dhparameters(1,1)
+T =vpa(simplify([cos(theta) -sin(theta)*cos(alpha) sin(theta)*sin(alpha) a*cos(theta);...
+       sin(theta) cos(theta)*cos(alpha) -cos(theta)*sin(alpha) a*sin(theta);...
+       0 sin(alpha) cos(alpha) d;...    
+       0 0 0 1]));
+end
