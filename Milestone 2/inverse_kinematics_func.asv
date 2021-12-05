@@ -1,19 +1,26 @@
 function q = inverse_kinematics_func(q0, X) % q0 and X are one raw arrays
+digits(4);
 syms q1 q2 q3 q4
 X = X';
+q0 = q0';
 [x,y,z] = forward_kinematics_func();
 F = [x;y;z];
-F = simplify(subs(F ,[q1 q2 q3 q4],q0) - X);
-J_inv = inverse_jacobian_matrix(q0);
-q = simplify(q0' - J_inv * F);
-q0 = q0';
-error = [10^-3; 10^-3; 10^-3; 10^-3]; 
-while abs(q-q0) > error)
+F = simplify(subs(F ,[q1 q2 q3 q4],q0') - X);
+J_inv = inverse_jacobian_matrix(q0');
+q = simplify(q0 - J_inv * F);
+error_allaowence = 10^-3;
+max_iterations = 500;
+i = 0;
+while (~error_accepted(q-q0,error_allaowence)||i>max_iterations)
     q0 = q;
     [x,y,z] = forward_kinematics_func();
     F = [x;y;z];
     F = simplify(subs(F ,[q1 q2 q3 q4],q0') - X);
     J_inv = inverse_jacobian_matrix(q0');
     q = simplify(q0 - J_inv * F);
+    i = i + 1;
 end
+i
+q = round(q,5);
+if is_feasable()
 end
