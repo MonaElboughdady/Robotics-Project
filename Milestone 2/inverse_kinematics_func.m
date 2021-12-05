@@ -1,4 +1,4 @@
-function q = inverse_kinematics_func(q0, X)
+function q = inverse_kinematics_func(q0, X) % q0 and X are one raw arrays
 syms q1 q2 q3 q4
 X = X';
 [x,y,z] = forward_kinematics_func();
