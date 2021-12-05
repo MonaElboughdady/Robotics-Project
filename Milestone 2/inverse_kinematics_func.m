@@ -28,4 +28,5 @@ if ~is_feasible(q)
     new_InitialGuess = [rand(1)*360 -90+rand(1)*180 rand(1)*125 55+rand(1)*80];
     inverse_kinematics_func(new_InitialGuess,X);
 end
+q = q';
 end

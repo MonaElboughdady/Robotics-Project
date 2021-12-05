@@ -17,5 +17,4 @@ for i = 1 : (Tf/Ts)+1
     T = T+Ts;
     Joint_Space(i,1) = q;
 end
-
 end
