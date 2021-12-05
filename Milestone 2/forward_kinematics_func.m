@@ -16,7 +16,7 @@ par4 = raw(1+i,5);
 par4 = par4{:};
 total_Transformation_Matrix = total_Transformation_Matrix*transformation_func(par1,par2,par3,par4);
 end
-vpa(simplify(total_Transformation_Matrix(:,4)))
+vpa(simplify(total_Transformation_Matrix(:,4)));
 X = vpa(simplify(total_Transformation_Matrix(1,4)));
 Y = vpa(simplify(total_Transformation_Matrix(2,4)));
 Z = vpa(simplify(total_Transformation_Matrix(3,4)));
