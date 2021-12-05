@@ -1,4 +1,8 @@
-
+X0 = [23.876, -80.962, -468.602];
+Xf = [-192.038, -103.571, -389.292];
+Tf = 10;
+Ts = 0.1;
+name = "Straight_line";
 Task_Space = task_traj(X0, Xf, Tf, Ts,name);
 Q = zeros((Tf/Ts)+1,1);
 for i = 1 : (Tf/Ts)+1
