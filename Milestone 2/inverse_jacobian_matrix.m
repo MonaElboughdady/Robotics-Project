@@ -1,5 +1,5 @@
 function J_inv = inverse_jacobian_matrix(q)
-[m,n] = size(q);
+[~,n] = size(q);
 J_inv = sym('A%d%d',[3 n]);
 [X,Y,Z] = forward_kinematics_func();
  for j = 1:n
