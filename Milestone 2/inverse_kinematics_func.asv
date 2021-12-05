@@ -1,0 +1,10 @@
+function q = inverse_kinematics_func(q0, X)
+[m,n] = size(q0);
+while q ~= q0
+    for i = 1:n
+        
+    end
+    J_inv = inverse_jacobian_matrix(q0);
+    q = q0 - J_inv * 
+end
+end
