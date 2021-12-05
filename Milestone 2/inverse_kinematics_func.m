@@ -20,7 +20,6 @@ while (~error_accepted(q-q0,error_allaowence)||i>max_iterations)
     q = simplify(q0 - J_inv * F);
     i = i + 1;
 end
-i
 q = round(q,5);
 if(imag(q(1))~=0 || imag(q(2))~=0 || imag(q(3))~=0 ||imag(q(4))~=0)
 return;

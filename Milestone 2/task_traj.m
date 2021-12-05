@@ -49,5 +49,5 @@ if (name == "spiral")
     end
     t = t-Ts;
 end
-Task_Space = [T,X,Y,Z];
+Task_Space = [X,Y,Z];
 end
