@@ -1,4 +1,4 @@
-function J_inv = inverse_jacobian_matrix(q)
+function J_inv = inverse_jacobian_matrix(q) %q is one raw array
 syms q1 q2 q3 q4
 Symbols = [q1 q2 q3 q4];
 J_inv = sym('A%d%d',[3 4]);
