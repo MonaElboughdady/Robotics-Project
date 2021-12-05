@@ -6,7 +6,7 @@ for i = 1:4
     syms x y
     C0 = q0(i);
     C1 = qdot0(i);
-    [C2,C3] = solve([C0 + C1*Tf + x*Tf^2 + y*Tf^3 == qf(i),C1 + 2*x*Tf +3*y*Tf^2 == qdotf(i)],[x, y]);
+    [C2,C3] = solve(C0 + C1*Tf + x*Tf^2 + y*Tf^3 == qf(i),C1 + 2*x*Tf +3*y*Tf^2 == qdotf(i));
     q(1,i) = C0 +C1*t +C2 *t^2 + C3 *t^3;
 end
 T = 0;
