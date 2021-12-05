@@ -25,10 +25,11 @@ end
 if (name == "circle")
     c = zint;
     r = yint-c;
+    w = (acos((zf-c)/r))/Tf;
     for i = 1 : (Tf/Ts)+1
     X(i,1) = xint;
-    Y(i,1) = r*cos(2*pi*t/Tf)+c;
-    Z(i,1) = r*sin(2*pi*t/Tf)+c;
+    Y(i,1) = r*cos(w*t/Tf)+c;
+    Z(i,1) = r*sin(w*t/Tf)+c;
     T(i,1) = t;
     
     t = t+Ts;
@@ -38,11 +39,12 @@ end
 if (name == "spiral")
     c = zint;
     r = yint-c;
-    K = (r-yf+c)/Tf;
+    K = 2;
+    w = (acos((zf-c)/(r-K*Tf)))/Tf;
     for i = 1 : (Tf/Ts)+1
     X(i,1) = xint;
-    Y(i,1) = (r-K*t)*cos(2*pi*t/Tf)+c;
-    Z(i,1) = (r-K*t)*sin(2*pi*t/Tf)+c;
+    Y(i,1) = (r-K*t)*cos(w*t/Tf)+c;
+    Z(i,1) = (r-K*t)*sin(w*t/Tf)+c;
     T(i,1) = t;
     
     t = t+Ts;
@@ -50,4 +52,39 @@ if (name == "spiral")
     t = t-Ts;
 end
 Task_Space = [X,Y,Z];
+% %% Plot the results
+% figure ( 'Name' , 'Output Data' ,'position',[100 100 960 800], 'NumberTitle' , 'off' );
+% % Longitudinal velocity
+% subplot(3,1,1)
+% plot(T,X,'b')
+% grid on
+% %legend('Longitudinal Velocity','location','SouthEast')
+% %title('Longitudinal Velocity')
+% xlabel('time (sec)')
+% ylabel('position in X')
+% 
+% % lateral deviation
+% subplot(3,1,2)
+% plot(T,Y,'b')
+% grid on
+% %legend('Longitudinal Velocity','location','SouthEast')
+% %title('Longitudinal Velocity')
+% xlabel('time (sec)')
+% ylabel('position in Y')
+% 
+% % relative yaw angle
+% subplot(3,1,3)
+% plot(T,Z,'b')
+% grid on
+% %legend('Longitudinal Velocity','location','SouthEast')
+% %title('Longitudinal Velocity')
+% xlabel('time (sec)')
+% ylabel('position in Z')
+% figure
+% plot(Y,Z,'b')
+% grid on
+% %legend('Longitudinal Velocity','location','SouthEast')
+% %title('Longitudinal Velocity')
+% xlabel('position in Y')
+% ylabel('position in Z')
 end
