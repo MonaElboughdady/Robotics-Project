@@ -5,7 +5,8 @@ q0 = q0';
 [x,y,z] = forward_kinematics_func();
 F = [x;y;z];
 F = simplify(subs(F ,[q1 q2 q3 q4],q0') - X);
-J_inv = inverse_jacobian_matrix(q0');
+J = jacobian_matrix();
+J_inv = inverse_jacobian_matrix(J,q0');
 q = simplify(q0 - J_inv * F);
 error_allaowence = 10^-3;
 max_iterations = 500;
@@ -15,12 +16,12 @@ while (~error_accepted(q-q0,error_allaowence)||i>max_iterations)
     [x,y,z] = forward_kinematics_func();
     F = [x;y;z];
     F = simplify(subs(F ,[q1 q2 q3 q4],q0') - X);
-    J_inv = inverse_jacobian_matrix(q0');
+    J_inv = inverse_jacobian_matrix(J,q0');
     q = simplify(q0 - J_inv * F);
     i = i + 1;
 end
 q = round(q,5);
-q=double(wrapToPi(q))
+q=double(wrapToPi(q));
 if(imag(q(1))~=0 || imag(q(2))~=0 || imag(q(3))~=0 ||imag(q(4))~=0)
 return;
 end
