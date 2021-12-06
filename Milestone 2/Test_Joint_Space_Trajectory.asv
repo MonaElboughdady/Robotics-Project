@@ -1,4 +1,0 @@
-syms q1 q2 q3 q4
-[x, y, z] = forward_kinematics_func()
-[xi,yi,zi] = double([subs(x,[q1 q2 q3 q4],JointAngles(1,:)))
-[xf,yf,zf] = double(subs([x,y,z],[q1 q2 q3 q4],JointAngles(101,:)))

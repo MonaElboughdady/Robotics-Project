@@ -1,7 +1,6 @@
-t=0:0.1:10;
 %% Plot the results
 figure ( 'Name' , 'Output Data' ,'position',[100 100 960 800], 'NumberTitle' , 'off' );
-
+t=0:0.1:10;
 subplot(4,1,1)
 plot(t,JointAngles(:,1));
 xlabel('time (sec)')

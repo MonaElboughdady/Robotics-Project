@@ -25,6 +25,10 @@ end
 if (name == "circle")
     c = zint;
     r = yint-c;
+<<<<<<< Updated upstream
+=======
+    w = 2*pi;
+>>>>>>> Stashed changes
     for i = 1 : (Tf/Ts)+1
     X(i,1) = xint;
     Y(i,1) = r*cos(2*pi*t/Tf)+c;
@@ -39,6 +43,10 @@ if (name == "spiral")
     c = zint;
     r = yint-c;
     K = 10;
+<<<<<<< Updated upstream
+=======
+    w = 2*pi;
+>>>>>>> Stashed changes
     for i = 1 : (Tf/Ts)+1
     X(i,1) = xint;
     Y(i,1) = (r-K*t)*cos(2*pi*t/Tf)+c;
@@ -50,6 +58,7 @@ if (name == "spiral")
     t = t-Ts;
 end
 Task_Space = [X,Y,Z];
+<<<<<<< Updated upstream
 % %% Plot the results
 % figure ( 'Name' , 'Output Data' ,'position',[100 100 960 800], 'NumberTitle' , 'off' );
 % % Longitudinal velocity
@@ -78,6 +87,36 @@ Task_Space = [X,Y,Z];
 % %title('Longitudinal Velocity')
 % xlabel('time (sec)')
 % ylabel('position in Z')
+=======
+%% Plot the results
+figure ( 'Name' , 'Output Data' ,'position',[100 100 960 800], 'NumberTitle' , 'off' );
+% Longitudinal velocity
+subplot(3,1,1)
+plot(T,X,'b')
+grid on
+%legend('Longitudinal Velocity','location','SouthEast')
+%title('Longitudinal Velocity')
+xlabel('time (sec)')
+ylabel('position in X')
+
+% lateral deviation
+subplot(3,1,2)
+plot(T,Y,'b')
+grid on
+%legend('Longitudinal Velocity','location','SouthEast')
+%title('Longitudinal Velocity')
+xlabel('time (sec)')
+ylabel('position in Y')
+
+% relative yaw angle
+subplot(3,1,3)
+plot(T,Z,'b')
+grid on
+%legend('Longitudinal Velocity','location','SouthEast')
+%title('Longitudinal Velocity')
+xlabel('time (sec)')
+ylabel('position in Z')
+>>>>>>> Stashed changes
 figure
 plot(Y,Z,'b')
 grid on
