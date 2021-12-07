@@ -1,0 +1,9 @@
+Xi =[-40, 60, -300];
+Xf =[0, 40,-400];
+Tf = 10;
+Ts = 0.1;
+InitialGuess = [19*pi/36, 25*pi/72, 0, pi];
+q0 = inverse_kinematics_func(InitialGuess,Xi);
+qf = inverse_kinematics_func(InitialGuess,Xf);
+JointAngles = joint_traj(q0,qf,zeros(1,4),zeros(1,4),Tf,Ts);
+EE_position = Joint_Space_To_Task_Space(JointAngles,Tf,Ts);
