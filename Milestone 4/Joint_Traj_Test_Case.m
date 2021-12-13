@@ -1,0 +1,13 @@
+Xi =[-40; 60; -300];
+Xf =[0; 40; -400];
+Tf = 10;
+Ts = 0.1;
+InitialGuess = [19*pi/36; 25*pi/72; 0; pi];
+[x,y,z] = forward_kinematics_func();
+J = jacobian_matrix([x;y;z]);
+error_allaowence = 10^-2;
+max_iterations = 100;
+qi = inverse_kinematics_loop(InitialGuess,Xi,[x;y;z],J,max_iterations,error_allaowence);
+qf = inverse_kinematics_loop(InitialGuess,Xf,[x;y;z],J,max_iterations,error_allaowence);
+JointAngles = joint_traj(qi,qf,zeros(1,4),zeros(1,4),Tf,Ts);
+EE_position = Joint_Space_To_Task_Space(JointAngles,Tf,Ts);
