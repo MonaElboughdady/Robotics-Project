@@ -1,0 +1,20 @@
+Constrained Instances: 'fixed_base-1', 'FeeTech FS5109M Metal Gear Servo Outer volume-2'
+Constraint Name: Parallel3
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeeTech FS5109M Metal Gear Servo Outer volume-2', 'hub-1'
+Constraint Name: Concentric2
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'FeeTech FS5109M Metal Gear Servo Outer volume-2', 'hub-1'
+Constraint Name: Coincident23
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fixed_base-1', 'hub-1'
+Constraint Name: Concentric3
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fixed_base-1', 'FeeTech FS5109M Metal Gear Servo Outer volume-2'
+Constraint Name: Parallel5
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
