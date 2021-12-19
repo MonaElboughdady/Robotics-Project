@@ -1,6 +1,6 @@
 %This script is to validate the inverse kinematics function
 syms q1 q2 q3 q4
-TestCase1 = [50; -50; -400];
+TestCase1 = [-141.791591992156	; -21.7998000000000; -276.733908396399];	
 TestCase2 = [-10; 100; -200];
 InitialGuess=[0.1*pi; 0.1*pi; 0.1*pi; 0.1*pi];
 [x,y,z] = forward_kinematics_func();

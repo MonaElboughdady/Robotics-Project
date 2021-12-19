@@ -1,0 +1,45 @@
+%Clearing Variables
+clear;
+clc;
+
+%Arduino Setup 
+a = arduino();
+myServo1 = servo(a,'D2');
+myServo2 = servo(a,'D3');
+myServo3 = servo(a,'D4');
+myServo4 = servo(a,'D5');
+
+%Home Position
+myServo1.writePosition(0.25);
+myServo2.writePosition(0.522);
+myServo3.writePosition(0.594);
+myServo4.writePosition(0.572);
+
+%Trajectory Input Para
+X0 = [158.45210, -21.79980, -368.94793];
+Xf = [-305.74040, -21.79980, -389.56786];
+Tf = 10;
+Ts = 0.1;
+name = "Straight_line";
+Task_Space = task_traj(X0, Xf, Tf, Ts,name);
+[x,y,z] = forward_kinematics_func();
+J = jacobian_matrix([x;y;z]);
+error_allaowence = 10^-2;
+max_iterations = 100;
+Q = zeros((Tf/Ts)+1,4);
+
+%Start Trajectory Go...Go...Go...
+for i = 1 : (Tf/Ts)+1
+    X = Task_Space(i,:);
+    if i == 1
+        q0  = [19*pi/36 25*pi/72 0 pi];
+    else
+        q0 = Q(i-1,:);
+    end
+    Q(i,:) = (inverse_kinematics_loop(q0',X',[x;y;z],J,max_iterations,error_allaowence))';  
+    myServo1.writePosition(((Q(i,1)*180/pi)+45)/180);
+    myServo2.writePosition(((Q(i,2)*180/pi)+94)/180);
+    myServo3.writePosition(((Q(i,3)*180/pi)+107)/180);
+    myServo4.writePosition(((Q(i,4)*180/pi)+103)/180);
+    pause(0.5);
+end
